@@ -1,0 +1,88 @@
+rm 'filename'
+rm -f 'filename'
+rm -r 'directory'
+cp git.txt ~/desktop/git.txt2
+mv salam.html ~/desktop/salam.txt
+pwd فولدری ک هستین رو نشون میده
+ls 'list'
+Cd / 'go to root'
+cd ~/desktop
+ctrl + w 'close termnal'
+ctrl + t 'open new tab in terminal'
+rmdir 'delete directory'
+chown 'تغییر مالکیت گروه یک فایل و یا یک پوشه'
+chmod 'تغییر و محدود کردن مجوز دسترسی'
+du -sh . 'مقدار استفاده ی فضا در دایرکتوری'
+find ~/desktop/ -name '*.txt' 'پیدا کردن فایل هایی با پسوند تی ایکس تی در دایرکاوری'
+open linux.txt 'open with text-editor'
+open -a 'Visual Studio Code' linux.txt 'open with vscode'
+open -a finder .
+Control + O 'ذخیره کردن در نانو'
+xcode /ios 
+top 'سی پی یو در حال استفادی از تمام برنامه ها'
+Kill PID 'خاتمه دادن به برنامه هایی که در تاپ مشاهد میکنید'
+Man top 'راهنمایی برای فلگ ها و دستورات نامی که در جلوش قرار میدین هست'
+ditto a a2 'محتویات داخل فولدر آ را در آ۲ ذخیره میگند'
+whatis ditto 'توضیح میده که کارایی این دستور چی هست'
+mv linux.txt linux.js 'تغییر فرمت فایل'
+ls -la /Applications 'لیست کردن تمام اپلیکیشن ها'
+whoami 'میکه شما کدوم کاربر هستین'
+su 'عوض کردن عسثق به روت'
+su root
+su hamis
+exit 'خروج از روت'
+
+Nano esc + m 'mouse suport'
+Nano double click select
+Nano esc + k select cut
+Nano ctrl + k cut
+Nano ctrl + u pase
+
+cat file.txt 'نمایش محتویات داخل فایل'
+head linux.js 'ده خط اول فایل رو نشون میده'
+head -n 5 linux.js 'پنج خط اول فایل رو نشون میده'
+tail linux.js 'ده خط اخر فایل رو نشون میده'
+
+export 'تنظیم یک متغیر محیطی جدید'
+export NAME=hamd2 'دوباره نام را به نام جدید تغییر میدهیم'
+env 'نمایش متغیرهای محیطی'
+printenv RUBY_VERSION 'مقدار متغیر محیطی رو نشون میده'
+printenv SHELL = '/bin/zsh'
+printenv ANDROID_SDK_ROOT = '/Users/hamid/Library/Android/sdk'
+
+printenv PATH 
+PATH=$PATH:/usr/local/bin/brew  'متغیر محیطی پتث رو قرار میده با خود پتث ‫+‬ متغیر جدید'
+
+echo $ + ANDROID_SDK_ROOT 'مقدار متغیر محیطی رو نشون میده'
+
+open ~/.zshrc
+nano ~/.zshrc
+source ~/.zshrc
+locale
+
+which brew = '/usr/local/bin/brew'  'میگه من میرم از تو این فایل بریو رو صدا میزنم'
+
+cd /
+cd ~
+
+grep سلام linux.js 'میره تو فایل و اون خط هایی که سلام توشون هست رو میاره نشون میده'
+grep سلام linux.js linux2.js linux3.js 'تو چندتا فایل میگرده'
+grep -w سلام linux.js 'فقط خط هایی رو میار ک سلام تنها توشون هست و چیز اضافه ای به سلام نچسبیده'
+grep -i سلام linux.js 'برای اینکه به حروف بزرگ و کوچک حساس نباشه وهرجور تایپ کردیم پیدا کنه از این فلگ استفاده میکنیم'
+grep سلام folder1/*.js
+grep سلام folder1/*.*
+
+grep -r سلام folder1/* 'با این فلگ داخل دایرکتوری ارو هم میگرده'
+
+-riw 'برای اینکه چند فلگ رو با هم استفاده کنیم'
+
+echo salam > linux.txt 'یه فایل میسازه و سلام رو توش مینویسه'
+echo salam2 >> linux.txt 'توی فایل ساخته شده خط جدید اضاف میکنه'
+
+tail -n 5 a2/linux.js >> folder2/salam.js 'پنج خط فولدر اول رو میبره اضاف میکنه به فوتدر دوم'
+
+| 'پایپ رو اگه بعد یه دستور بزاریم میتونیم بعدش یه دستور جدید اضاف کنیک' |
+
+cat linux.js | grep aa2 'به جای اینکه فایل لینوکس دات جی اس رو نشون بده اونی رو که گرپ کردیم نشون میده'
+ls | less 'پایپ لس رو اخر هر دستوری بزاری اون رو خط به خط نشون میده'
+
