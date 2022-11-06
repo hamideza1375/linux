@@ -3,6 +3,12 @@ rm -f 'filename'
 rm -r 'directory'
 cp git.txt ~/desktop/git.txt2
 mv salam.html ~/desktop/salam.txt
+
+rm 'filename'
+rm -f 'filename'
+rm -r 'directory'
+cp git.txt ~/desktop/git.txt2
+mv salam.html ~/desktop/salam.txt
 pwd فولدری ک هستین رو نشون میده
 ls 'list'
 Cd / 'go to root'
