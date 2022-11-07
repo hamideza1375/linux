@@ -20,6 +20,8 @@ chown 'تغییر مالکیت گروه یک فایل و یا یک پوشه'
 chmod 'تغییر و محدود کردن مجوز دسترسی'
 du -sh . 'مقدار استفاده ی فضا در دایرکتوری'
 find ~/desktop/ -name '*.txt' 'پیدا کردن فایل هایی با پسوند تی ایکس تی در دایرکاوری'
+find desktop -name linux.txt
+find ~ -type d -name "foldername" 'find folder'
 open linux.txt 'open with text-editor'
 open -a 'Visual Studio Code' linux.txt 'open with vscode'
 open -a finder .
@@ -172,5 +174,45 @@ curl https://www.w3schools.com/html/pic_trulli.jpg -o some.jpg
 passwd 'تغییر دادن پسورد'
 
 stat some.png 'یسری مشخصات در مورد فایل میده'
+
+alias c=clear 'سی برابر میشه با کلیر'
+alias 'تمام الیس های ثبت شده رو نشون میده'
+'برای داعمی کردن الیس ها اون هارو توی فایل 
+~/.zshrc باید برد'
+
+permission drwxr-xr-x
+drwxr-xr-x 'این سطح دسترسی ها هست که سه بخش هست و اولی برای صاحب حساب هست یا اونر هست و دومی برای گروهش هست و سومی برای ؟ '
+drwxr 'd یعنی ییی' 'r یعنی رید' 'w رایت' ' xاجرا کردنx' 
+
+sudo chown root a.png 'یعنی مجوز های این فایل رو برای روت تغییر بده'
+sudo chown hamid a.png 'یعنی مجوز های این فایل رو برای حمید تغییر بده'
+sudo chown :root a.png 'یعنی مجوز های این فایل رو برای گروه به روت تغییر بده تغییر بده'
+
+sudo chmod o+w b.jpg 'به اونر دسترسی رایت کردن فایل داده میشه'
+sudo chmod g‫-‬w b.jpg 'از گروه دسترسی رایت کردن فایل برداشته میشه'
+sudo chmod g=wr b.jpg 'مجوز گروه رو به این تغییر میده'
+'o=owner' 'g=group' 'o=other'
+
+sudo chmod 000 b.jpg 'یعنی تمام دسترسی ها برای سه تا گروه برداشته شود'
+sudo chmod 777 b.jpg 'یعنی تمام دسترسی ها به سه گروه داده شود'
+
+umask 'به صورت عدد دسترسی هارو نشون میده'
+
+gem install packagename 'اگه فراموش کردین از دستور سودو استفاده کنید کار پایین را انجام دهید'
+
+sudo !! 'دوتا علامت تعجب یعنی دستوری که دفعه ی قبل در ترمینال وارد کردی رو دوباره اینجا هم وارد کن'
+
+(link) ln a.txt b.txt
+(softlink) ln -s a.jpg b.txt 'بی دات تی ایکی تی تبدیل به یک شرتکات میشه که وقتی اجراش کنید آ دات جی پی جی اجرا میشه'
+
+which node 'میگه که از کجا نود رو میخونه'
+readlink /usr/local/bin/node 'ازرید لینک از جایی که نود رو میخونه میره مشخصات کامل تری در مورد ورژنش میاره'
+
+system_profiler SPSoftwareDataType SPHardwareDataType 'خواندن مشخصات سیستم و سخت افزار'
+
+launchctl list 'سیستم های در حال اجرا را نشان میدهد'
+launchctl 'دستوراتی که در مک میتوانیم استفاده کنیم را نشان میدهد'
+
+
 
 q 'بعد از دستوراتی مثل لس با این دستور میشه خارج شد'
