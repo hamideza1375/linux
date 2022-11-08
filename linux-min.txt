@@ -1,0 +1,131 @@
+rm 'filename'
+rm -f 'filename'
+rm -r 'directory'
+rmdir
+
+cp git.txt ~/desktop/git.txt2
+cp git.txt ~/desktop
+
+mv salam.html ~/desktop/salam.txt
+mv salam.html ~/desktop
+
+(link) ln a.txt b.txt
+(softlink) ln -s a.jpg b.txt
+
+open linux.txt
+open -a finder .
+
+cat file.txt
+cat a1.js >> a2.js = ditto a a2
+
+su
+su root
+su hamis
+exit
+
+grep سلام linux.js
+grep سلام linux.js linux2.js linux3.js
+grep -w سلام linux.js 
+grep -i سلام linux.js 
+grep سلام folder1/*.js
+grep سلام folder1/*.*
+grep -r سلام folder1/*
+ls | grep src
+
+echo $ + ANDROID_SDK_ROOT
+echo salam > linux.txt
+echo salam2 >> linux.txt
+echo > b.txt = touch b.txt
+cat a1.js >> a2.js
+tail -n 5 linux.js >> salam.js 
+cat linux.js | grep salam 
+
+find ~/desktop/ -name '*.txt' 
+find ~ -type d -name "foldername" 'find folder'
+find . -name 'mixProject*' 
+find . -type d -name 'git*' 
+find . -type f -name 'git*'
+
+pwd
+
+
+
+
+
+
+
+
+ping github.com
+curl https://www.w3schools.com/html/pic_trulli.jpg --output some.jpg 
+curl https://www.w3schools.com/html/pic_trulli.jpg -o some.jpg
+scp s.png hamid@localhost:80/images/someFile.png 'upload in server'
+
+passwd
+alias c=clear 'سی برابر میشه با کلیر'
+sudo chown root:root a.png
+sudo chmod 777 a.png && chmod u=wr g+w o-r a.png!!
+'u=owner' 'g=group' 'o=other'
+
+ls *.js
+ls -la
+ps -l
+ps -e
+ps -ef
+
+file server.js
+
+Ctrl + z
+npm start &
+jobs
+
+bg
+bg %2
+fg 
+
+kill %2
+kill pId
+kill -l
+kill TEARM %2 = kill %2
+kill %1 %2
+
+ditto a a2
+
+sudo nice -n -10 npm start 
+sudo renice -n 20 -p pId 
+sudo nice -n -10 node server.js
+sudo renice -n 3 node server.js = result = '-7'
+
+
+export NAME=hamd2
+PATH=$PATH:/usr/local/bin/brew
+
+head linux.js
+head -n 5 linux.js
+
+tail linux.js
+tail -n 3 linux.js
+
+nano esc + m 'mouse suport'
+nano double click select
+nano ctrl + k cut
+nano ctrl + u pase
+
+whatis ditto
+whereis ls
+which node
+readlink /usr/local/bin/node
+printenv RUBY_VERSION
+whoami
+
+top 
+Man top
+uptime 
+
+du -sh
+
+ctrl + w 'close termnal'
+ctrl + t 'open new tab in terminal'
+
+cal
+
+system_profiler SPSoftwareDataType SPHardwareDataType = sss
