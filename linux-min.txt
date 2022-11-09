@@ -1,3 +1,25 @@
+grep salam b.txt > a.txt
+rm 'filename'
+mv salam.html ~/desktop
+cp git.txt ~/desktop
+ln a.txt b.txt
+open linux.txt
+cat file.txt
+echo salam
+ditto a a2
+grep سلام linux.js
+find . -name '*.txt' 
+man ls
+pwd
+su
+
+shutdown -h now
+service sshd restart
+
+
+
+
+
 rm 'filename'
 rm -f 'filename'
 rm -r 'directory'
@@ -23,6 +45,7 @@ su root
 su hamis
 exit
 
+grep desktop b.txt > a.txt
 grep سلام linux.js
 grep سلام linux.js linux2.js linux3.js
 grep -w سلام linux.js 
@@ -58,6 +81,7 @@ pwd
 ping github.com
 curl https://www.w3schools.com/html/pic_trulli.jpg --output some.jpg 
 curl https://www.w3schools.com/html/pic_trulli.jpg -o some.jpg
+curl -T salam.txt ftp://162.19.217.1 --user reza:password
 scp s.png hamid@localhost:80/images/someFile.png 'upload in server'
 
 passwd
