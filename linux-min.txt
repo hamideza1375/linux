@@ -13,6 +13,8 @@ man ls
 pwd
 su
 
+adduser newUser
+adduser newUser sudo
 shutdown -h now
 service sshd restart
 

@@ -218,6 +218,9 @@ system_profiler SPSoftwareDataType SPHardwareDataType 'خواندن مشخصات
 launchctl list 'سیستم های در حال اجرا را نشان میدهد'
 launchctl 'دستوراتی که در مک میتوانیم استفاده کنیم را نشان میدهد'
 
+adduser newUser
+adduser newUser sudo
+
 scp s.png hamid@localhost:80/images/someFile.png 'upload in server'
 
 q 'بعد از دستوراتی مثل لس با این دستور میشه خارج شد'
