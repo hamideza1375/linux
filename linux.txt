@@ -2,6 +2,8 @@ rm 'filename'
 rm -f 'filename'
 rm -r 'directory'
 cp git.txt ~/desktop/git.txt2
+cp git1.txt git2.txt desktop
+cp -R foldername /home
 mv salam.html ~/desktop/salam.txt
 
 rm 'filename'

@@ -2,6 +2,8 @@ grep salam b.txt > a.txt
 rm 'filename'
 mv salam.html ~/desktop
 cp git.txt ~/desktop
+cp git1.txt git2.txt desktop
+cp -R foldername /home
 ln a.txt b.txt
 open linux.txt
 cat file.txt
@@ -29,6 +31,7 @@ rmdir
 
 cp git.txt ~/desktop/git.txt2
 cp git.txt ~/desktop
+cp git1.txt git2.txt desktop
 
 mv salam.html ~/desktop/salam.txt
 mv salam.html ~/desktop
