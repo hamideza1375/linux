@@ -14,6 +14,7 @@ find . -name '*.txt'
 man ls
 pwd
 su
+sudo mkdir -p /var/www/mytest1.com/public_html
 
 adduser newUser
 adduser newUser sudo

@@ -5,6 +5,7 @@ cp git.txt ~/desktop/git.txt2
 cp git1.txt git2.txt desktop
 cp -R foldername /home
 mv salam.html ~/desktop/salam.txt
+sudo mkdir -p /var/www/mytest1.com/public_html
 
 rm 'filename'
 rm -f 'filename'
