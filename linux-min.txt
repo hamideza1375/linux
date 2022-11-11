@@ -81,9 +81,6 @@ pwd
 
 
 
-
-
-
 ping github.com
 curl https://www.w3schools.com/html/pic_trulli.jpg --output some.jpg 
 curl https://www.w3schools.com/html/pic_trulli.jpg -o some.jpg
@@ -153,9 +150,18 @@ uptime
 
 du -sh
 
+curl -O http://ktwit.net/code/watch-0.2-macosx/watch
+chmod +x watch
+sudo mv watch /usr/local/bin/
+
+#Set-Date
+date +"%19:55:04"
+date +"%00-%30-%00"
+
 ctrl + w 'close termnal'
 ctrl + t 'open new tab in terminal'
 
 cal
+
 
 system_profiler SPSoftwareDataType SPHardwareDataType = sss

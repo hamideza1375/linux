@@ -224,6 +224,16 @@ launchctl 'دستوراتی که در مک میتوانیم استفاده کن�
 adduser newUser
 adduser newUser sudo
 
+curl -O http://ktwit.net/code/watch-0.2-macosx/watch
+chmod +x watch
+sudo mv watch /usr/local/bin/
+
+
+#Set-Date
+date +"%19:55:04"
+date +"%00-%30-%00"
+
+
 scp s.png hamid@localhost:80/images/someFile.png 'upload in server'
 
 q 'بعد از دستوراتی مثل لس با این دستور میشه خارج شد'
